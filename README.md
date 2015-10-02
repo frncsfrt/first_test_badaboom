@@ -1,7 +1,7 @@
 
 Badaboum est un minijeu de société en français écrit en Ruby.
 
-Le nombre de joueurs peut être de deux à dix.
+Il peut y avoir de deux à 10 joueurs.
 
 Voici les règles:
 
