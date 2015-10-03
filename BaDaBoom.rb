@@ -80,7 +80,14 @@ while gets.chomp.downcase != 'go'
 end
 time_number = [25, 20, 30, 35, 40, 45, 50]
 time_number = time_number.sample
-  puts "Le compte à rebours a démarré sur une durée Aléatoire !"
+puts "\n\nLe compte à rebours est lançé sur une durée Aléatoire !\n\n"
+if dice_position == "BA"
+  puts "Trouvez un mot commençant par '#{syllabe}' et passez la bombe à votre voisin !\n\n"
+elsif dice_position == "DA"
+  puts "Trouvez un mot finissant par '#{syllabe}' et passez la bombe à votre voisin !\n\n"
+else
+  puts "Trouver un mot contenant la syllabe '#{syllabe}' et passez la bombe à votre voisin !\n\n"
+end
   puts "
                                                                     ,-.--.
   *.______________________________________________________________,' (Bomb)
